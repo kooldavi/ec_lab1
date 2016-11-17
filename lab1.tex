@@ -9,14 +9,28 @@
 \usepackage{makeidx}
 \usepackage{graphicx}
 \usepackage{fancyhdr}
-\author{David Schlosser und Stefan Schmidt}
-\title{EC Lab 1}
-\cfoot{David Schlosser und Stefan Schmidt}
-\lhead{EC Lab 1}
+\usepackage{setspace}
+
+\lhead{Embedded Control Laboratory Excercise 1}
 \rhead{\thepage}
 \begin{document}
-\maketitle
+\begin{titlepage}
+	\begin{center}
+	{\scshape\LARGE University of Siegen \par}
+	\vspace{3cm}
+	{\scshape\LARGE Embedded Control Laboratory \par}
+	\vspace{1cm}
+	{\scshape\Large Ball on inclined plane \par}
+	\vspace{5cm}
+	{\scshape\Large\bfseries Report of lab excercise 1 \par}
+	\vfill
+	\end{center}
+	{\scshape WS 2016/17\\ \\ Group 11\\ \\ 901510 David Schlosser\\ 918781 Stefan Schmidt \par}	
+\end{titlepage}
 \pagestyle{fancy}
+\onehalfspacing
+\tableofcontents
+\newpage
 
 \input{bericht.tex}
 \input{fragen.tex}

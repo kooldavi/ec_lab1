@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.30)  15 NOV 2016 12:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.30)  16 NOV 2016 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -35,16 +35,13 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
 l.2 \subsection
-               *{1) Wieso ist die Annäherung für $\beta$ größer als $\pm...
+               {Wieso ist die Annäherung für $\beta$ größer als $\pm40$ ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no * in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no W in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -593,7 +590,7 @@ Overfull \hbox (19.93408pt too wide) in paragraph at lines 1--5
 
 ! Undefined control sequence.
 l.6 \subsection
-               *{2.1) $\beta = \pm 300$ Grad}
+               {$\beta = \pm 300$ Grad}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -607,16 +604,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 \subsection*
-                {2.1) $\beta = \pm 300$ Grad}
+l.6 \subsection{$
+                 \beta = \pm 300$ Grad}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no * in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no G in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -898,13 +890,8 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 6--9
-[]
- []
-
-
-Overfull \hbox (16.73953pt too wide) in paragraph at lines 6--9
-\OML/cmm/m/it/10 ^^L \OT1/cmr/m/n/10 =
+Overfull \hbox (36.73953pt too wide) in paragraph at lines 6--9
+[]$\OML/cmm/m/it/10 ^^L \OT1/cmr/m/n/10 =
  []
 
 
@@ -939,7 +926,7 @@ Overfull \hbox (17.77783pt too wide) in paragraph at lines 6--9
 
 ! Undefined control sequence.
 l.10 \subsection
-                *{2.2) Schwarzer Arm länger oder kürzer}
+                {Schwarzer Arm länger oder kürzer}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -953,16 +940,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 \subsection*
-                 {2.2) Schwarzer Arm länger oder kürzer}
+l.10 \subsection{S
+                  chwarzer Arm länger oder kürzer}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no * in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
