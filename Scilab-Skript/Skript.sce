@@ -59,10 +59,12 @@ alpha = alpha*180/%pi;
 beta = beta*180/%pi;
 
 //plot the result
-plot(beta, alpha);
-plot(beta,a1/a2*beta,"r:");
+plot(beta, alpha, "thickness", 3);
+plot(beta,a1/a2*beta,"r:", "thickness", 3);
 
 //label the plot and show grid
-xlabel("$\beta$");
-ylabel("$\alpha$");
+xlabel("$Angle\ \beta$", "fontsize", 4);
+ylabel("$Angle\ \alpha$", "fontsize", 4);
+legend("$\alpha=f(\beta)$", "$\alpha = (a_1/a_2)\beta$")
+title("$Ball\ on\ inclined\ plane\ \alpha=f(\beta)$", "fontsize", 5);
 xgrid();
