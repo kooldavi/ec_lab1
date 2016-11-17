@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.30)  17 NOV 2016 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.6.30)  17 NOV 2016 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -505,8 +505,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1] (./bericht.tex) (./fragen.tex [2]
-<images/plot1_1.png, id=26, 880.28876pt x 456.70625pt>
+[1] (./bericht.tex <images/figure1.png, id=19, 1315.91624pt x 518.93875pt>
+File: images/figure1.png Graphic file (type png)
+
+<use images/figure1.png>
+Package pdftex.def Info: images/figure1.png used on input line 11.
+(pdftex.def)             Requested size: 394.77792pt x 155.68282pt.
+
+Overfull \hbox (4.77792pt too wide) in paragraph at lines 11--12
+ [][] 
+ []
+
+[2 <./images/figure1.png>]) (./fragen.tex [3]
+<images/plot1_1.png, id=34, 880.28876pt x 456.70625pt>
 File: images/plot1_1.png Graphic file (type png)
 
 <use images/plot1_1.png>
@@ -522,7 +533,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<images/plot2_1.png, id=28, 880.28876pt x 456.70625pt>
+<images/plot2_1.png, id=35, 880.28876pt x 456.70625pt>
 File: images/plot2_1.png Graphic file (type png)
 
 <use images/plot2_1.png>
@@ -533,12 +544,12 @@ Overfull \hbox (6.12628pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-[3 <./images/plot1_1.png>]) [4 <./images/plot2_1.png>] (./lab1.aux) ) 
+[4 <./images/plot1_1.png>]) [5 <./images/plot2_1.png>] (./lab1.aux) ) 
 Here is how much of TeX's memory you used:
- 3522 strings out of 494927
- 44371 string characters out of 6177949
- 107230 words of memory out of 5000000
- 6656 multiletter control sequences out of 15000+600000
+ 3527 strings out of 494927
+ 44473 string characters out of 6177949
+ 110230 words of memory out of 5000000
+ 6660 multiletter control sequences out of 15000+600000
  18228 words of font info for 53 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  37i,10n,43p,580b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -556,11 +567,12 @@ mi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on lab1.pdf (5 pages, 163240 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on lab1.pdf (6 pages, 301294 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 302 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
